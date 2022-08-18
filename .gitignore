@@ -1,0 +1,8 @@
+authentication-service/authentication-service.Dockerfile
+broker-service/broker-service.Dockerfile
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/settings.json
+.vscode/targets.log
+front-end/.DS_Store
+front-end/cmd/.DS_Store
