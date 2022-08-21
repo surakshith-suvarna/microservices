@@ -1,7 +1,6 @@
 package main
 
 import (
-	"authentication/data"
 	"database/sql"
 	"fmt"
 	"log"
@@ -12,6 +11,7 @@ import (
 	_ "github.com/jackc/pgconn"
 	_ "github.com/jackc/pgx/v4"
 	_ "github.com/jackc/pgx/v4/stdlib"
+	"github.com/surakshith-suvarna/authentication/data"
 )
 
 const webPort = "80"

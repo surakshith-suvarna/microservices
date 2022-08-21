@@ -1,4 +1,4 @@
-module authentication
+module github.com/surakshith-suvarna/authentication
 
 go 1.18
 
