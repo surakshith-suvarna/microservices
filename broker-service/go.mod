@@ -1,4 +1,4 @@
-module github.com/surakshith-suvarna/broker
+module github.com/surakshith-suvarna/microservices/broker-service
 
 go 1.18
 

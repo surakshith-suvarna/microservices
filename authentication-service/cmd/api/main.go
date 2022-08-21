@@ -11,7 +11,7 @@ import (
 	_ "github.com/jackc/pgconn"
 	_ "github.com/jackc/pgx/v4"
 	_ "github.com/jackc/pgx/v4/stdlib"
-	"github.com/surakshith-suvarna/authentication/data"
+	"github.com/surakshith-suvarna/microservices/authentication-service/data"
 )
 
 const webPort = "80"
@@ -63,7 +63,7 @@ func openDB(dsn string) (*sql.DB, error) {
 	return db, nil
 }
 
-//connectToDB tries to connect 10 times with backing off for 2 seconds for every attempt.
+// connectToDB tries to connect 10 times with backing off for 2 seconds for every attempt.
 func connectToDB() *sql.DB {
 	dsn := os.Getenv("DSN")
 
